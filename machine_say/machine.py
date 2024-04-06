@@ -3,6 +3,9 @@ import sys
 import time
 
 class machine_say:
+    '''
+    class that makes machine say something you want via argument
+    '''
     FAIL = '\33[91m'
     OKGREEN = '\33[92m'
     OKCYAN ='\33[96m'

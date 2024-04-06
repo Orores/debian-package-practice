@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version = 1.0
+Type = Application
+Name = machine_say
+Comment = make machine say something
+Categories = Utility;
+Terminal = true
+StartupNotify = true
+StartupWMClass = machine_say
+
+
