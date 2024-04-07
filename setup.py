@@ -6,7 +6,7 @@ with open('README.md','r',encoding="utf-8") as file:
 
 setup(
         name = 'machine_say',
-        version = '1.0.5',
+        version = '1.0.6',
         description = 'small python package to make machine say something',
         long_description = long_description,
         long_description_content_type = "text/markdown",

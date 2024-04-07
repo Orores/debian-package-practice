@@ -1,6 +1,8 @@
+from .module2 import hello_from_module2
 import argparse
 import sys
 import time
+
 
 class machine_say:
     '''
@@ -47,6 +49,7 @@ class machine_say:
                 )
 
 def main():
+    print(hello_from_module2())
     machine = machine_say()
     options = machine.get_arguments()
     machine.script_header()

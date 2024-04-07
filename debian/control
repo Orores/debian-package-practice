@@ -1,0 +1,14 @@
+Source: machine_say
+Section: python
+Priority: optional
+Maintainer: Orores <orores@orores.com>
+Build-Depends: debhelper (>= 11), python3, python3-setuptools
+Standards-Version: 4.1.3
+Homepage: orores.com
+
+Package: machine_say
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: machine says (something)
+ A package for a making a terminal print statement "machines says ..."
+
